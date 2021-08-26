@@ -10,6 +10,7 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@ryangjchandler/alpine-clipboard": "^1.0.0",
         "@swup/preload-plugin": "^1.0.3",
         "@swup/slide-theme": "^1.0.5",
         "@tabler/core": "^1.0.0-beta",
@@ -17,9 +18,16 @@
         "autoprefixer": "^10.0.2",
         "axios": "^0.21",
         "bootstrap": "^5.0.0-beta3",
+        "choices.js": "^9.0.1",
+        "codemirror": "^5.62.3",
+        "highlight.js": "^11.2.0",
+        "highlightjs-blade": "github:miken32/highlightjs-blade",
+        "highlightjs-line-numbers.js": "^2.8.0",
         "jquery": "^3.5.1",
         "laravel-mix": "^6.0.6",
+        "livewire-sortable": "^0.2.2",
         "lodash": "^4.17.19",
+        "moment": "^2.29.1",
         "popper.js": "^1.16.1",
         "postcss": "^8.1.14",
         "postcss-import": "^12.0.1",
@@ -27,6 +35,8 @@
         "sass": "^1.32.8",
         "sass-loader": "^10.1.1",
         "sweetalert2": "^10.16.6",
-        "swup": "^2.0.14"
+        "swup": "^2.0.14",
+        "tempusdominus-bootstrap-4": "^5.39.0",
+        "vanilla-picker": "^2.11.2"
     }
 }

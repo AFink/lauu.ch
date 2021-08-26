@@ -10,7 +10,7 @@
             {{ $content }}
         </div>
         <div class="modal-footer bg-light">
-            {{ $footer }}
+            {{ $footer ?? '' }}
         </div>
     </div>
 </x-jet-modal>

@@ -13,30 +13,30 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 </head>
 
-<body class="font-sans antialiased bg-light">
+<body class="font-sans antialiased">
     <x-jet-banner />
     <!-- Swup Container -->
     <div class="page" id="swup">
-        @include('components.navigation-menu')
+        @include('components.dashboard-navigation-menu')
 
         <div class="content">
             <div class="container-xl">
                 <!-- Page Heading -->
                 @if ($header ?? false)
-                    <div class="page-header text-white">
-                        <div class="row align-items-center">
-                            <div class="col">
-                                {{ $header }}
-                            </div>
-                            @if ($headerbtns ?? false)
-                                <div class="col-auto ms-auto">
-                                    <div class="btn-list">
-                                        {{ $headerbtns }}
-                                    </div>
-                                </div>
-                            @endif
+                <div class="page-header text-white">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            {{ $header }}
                         </div>
+                        @if ($headerbtns ?? false)
+                        <div class="col-auto ms-auto">
+                            <div class="btn-list">
+                                {{ $headerbtns }}
+                            </div>
+                        </div>
+                        @endif
                     </div>
+                </div>
                 @endif
                 <!-- Page Content -->
                 <main>
@@ -52,7 +52,7 @@
     <!-- Scripts -->
     @livewireScripts
 
-    <script src="{{ mix('js/app.js') }}" ></script>
+    <script src="{{ mix('js/app.js') }}"></script>
 
     @stack('scripts')
 </body>

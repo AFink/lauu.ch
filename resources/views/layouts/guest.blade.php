@@ -16,7 +16,7 @@
     <script src="{{ mix('js/app.js') }}" defer></script>
 </head>
 
-<body class="bg-light font-sans antialiased" id="swup">
+<body class="font-sans antialiased">
     <div class="row justify-content-center pt-4">
         <div class="col-6">
             <div>

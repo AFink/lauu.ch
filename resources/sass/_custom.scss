@@ -108,7 +108,8 @@
   font-size: 0.875rem !important;
 }
 
-.form-list > div > div:first-child h3, .form-list > div:first-child .h3 {
+.form-list > div > div:first-child h3,
+.form-list > div:first-child .h3 {
   color: #fff;
 }
 
@@ -116,4 +117,74 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.share .btn {
+  color: #fff;
+  width: 100%;
+}
+.btn .icon {
+  color: inherit;
+}
+.twitter {
+  background-color: #1da1f3;
+}
+
+.twitter:hover {
+  background-color: rgba(29, 161, 243, 0.5);
+}
+
+.telegram {
+  background-color: #24a1de;
+}
+
+.telegram:hover {
+  background-color: rgba(36, 161, 222, 0.5);
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.whatsapp:hover {
+  background-color: rgba(37, 211, 102, 0.5);
+}
+
+
+.card h1{
+    font-size: 4rem;
+}
+
+
+
+.hljs {
+   background: inherit;
+}
+
+pre code.hljs {
+  padding: 0;
+}
+
+.hljs-ln-numbers {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: right;
+}
+
+.hljs-ln-n{
+  margin-right: 1rem;
+}
+
+
+pre, code {
+  white-space: pre;
+}
+
+
+.input-group .btn {
+   z-index: inherit; 
 }
